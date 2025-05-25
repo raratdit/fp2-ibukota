@@ -28,13 +28,13 @@ Jika pertanyaan bukan soal data, AI akan menjawab dengan percakapan biasa.
 ---
 
 ## 🗂️ Struktur Proyek
-
+```
 ├── assets/
 │ └── data_penduduk_indonesia.csv # Dataset CSV penduduk Indonesia
 ├── openrouter_client.py # Client Python untuk OpenRouter API
 ├── main.py # Aplikasi Streamlit utama
 └── README.md # Dokumentasi ini
-
+```
 
 ---
 
@@ -69,10 +69,3 @@ AI memberikan jawaban biasa
 File CSV:
 ```assets/data_penduduk_indonesia.csv```
 Pastikan file CSV tersedia sebelum menjalankan aplikasi.
-
-🤝 Kontribusi
-Jika kamu tertarik mengembangkan lebih lanjut, seperti:
-Menambahkan fitur RAG (Retrieval-Augmented Generation)
-Menyambungkan ke vector database
-Menyediakan model lokal via Ollama
-Silakan fork proyek ini dan kirimkan pull request.
