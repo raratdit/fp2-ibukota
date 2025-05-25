@@ -33,6 +33,7 @@ Jika pertanyaan bukan soal data, AI akan menjawab dengan percakapan biasa.
 │ └── data_penduduk_indonesia.csv # Dataset CSV penduduk Indonesia
 ├── openrouter_client.py # Client Python untuk OpenRouter API
 ├── main.py # Aplikasi Streamlit utama
+├── generate-data.ipynb
 └── README.md # Dokumentasi ini
 ```
 
