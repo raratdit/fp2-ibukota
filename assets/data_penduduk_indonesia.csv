@@ -1,0 +1,381 @@
+Provinsi,Tahun,Jumlah Penduduk (juta)
+Aceh,2015,6.24
+Aceh,2016,7.4
+Aceh,2017,8.28
+Aceh,2018,8.94
+Aceh,2019,8.47
+Aceh,2020,8.02
+Aceh,2021,7.36
+Aceh,2022,8.53
+Aceh,2023,9.22
+Aceh,2024,10.25
+Sumatera Utara,2015,14.58
+Sumatera Utara,2016,16.76
+Sumatera Utara,2017,16.15
+Sumatera Utara,2018,15.42
+Sumatera Utara,2019,14.73
+Sumatera Utara,2020,14.6
+Sumatera Utara,2021,15.44
+Sumatera Utara,2022,15.89
+Sumatera Utara,2023,15.69
+Sumatera Utara,2024,17.0
+Sumatera Barat,2015,5.09
+Sumatera Barat,2016,5.14
+Sumatera Barat,2017,5.33
+Sumatera Barat,2018,6.05
+Sumatera Barat,2019,5.81
+Sumatera Barat,2020,6.12
+Sumatera Barat,2021,6.6
+Sumatera Barat,2022,6.03
+Sumatera Barat,2023,6.53
+Sumatera Barat,2024,6.21
+Riau,2015,14.28
+Riau,2016,16.99
+Riau,2017,19.42
+Riau,2018,19.25
+Riau,2019,17.89
+Riau,2020,19.77
+Riau,2021,20.4
+Riau,2022,19.11
+Riau,2023,20.04
+Riau,2024,18.24
+Kepulauan Riau,2015,4.62
+Kepulauan Riau,2016,5.08
+Kepulauan Riau,2017,5.05
+Kepulauan Riau,2018,5.33
+Kepulauan Riau,2019,5.67
+Kepulauan Riau,2020,5.42
+Kepulauan Riau,2021,6.45
+Kepulauan Riau,2022,7.31
+Kepulauan Riau,2023,8.64
+Kepulauan Riau,2024,10.09
+Jambi,2015,13.91
+Jambi,2016,12.88
+Jambi,2017,12.35
+Jambi,2018,11.29
+Jambi,2019,11.26
+Jambi,2020,11.45
+Jambi,2021,11.23
+Jambi,2022,12.9
+Jambi,2023,12.99
+Jambi,2024,12.79
+Sumatera Selatan,2015,2.97
+Sumatera Selatan,2016,3.39
+Sumatera Selatan,2017,3.13
+Sumatera Selatan,2018,3.74
+Sumatera Selatan,2019,4.23
+Sumatera Selatan,2020,4.06
+Sumatera Selatan,2021,3.66
+Sumatera Selatan,2022,4.19
+Sumatera Selatan,2023,4.66
+Sumatera Selatan,2024,5.22
+Bangka Belitung,2015,2.04
+Bangka Belitung,2016,2.05
+Bangka Belitung,2017,1.92
+Bangka Belitung,2018,2.22
+Bangka Belitung,2019,2.42
+Bangka Belitung,2020,2.41
+Bangka Belitung,2021,2.22
+Bangka Belitung,2022,2.2
+Bangka Belitung,2023,2.2
+Bangka Belitung,2024,2.46
+Bengkulu,2015,13.42
+Bengkulu,2016,13.98
+Bengkulu,2017,13.08
+Bengkulu,2018,14.57
+Bengkulu,2019,16.44
+Bengkulu,2020,17.57
+Bengkulu,2021,19.87
+Bengkulu,2022,20.83
+Bengkulu,2023,22.02
+Bengkulu,2024,22.64
+Lampung,2015,2.51
+Lampung,2016,2.28
+Lampung,2017,2.49
+Lampung,2018,2.48
+Lampung,2019,2.61
+Lampung,2020,3.06
+Lampung,2021,2.98
+Lampung,2022,3.05
+Lampung,2023,3.43
+Lampung,2024,3.33
+DKI Jakarta,2015,5.06
+DKI Jakarta,2016,4.8
+DKI Jakarta,2017,5.65
+DKI Jakarta,2018,6.46
+DKI Jakarta,2019,7.04
+DKI Jakarta,2020,8.18
+DKI Jakarta,2021,9.33
+DKI Jakarta,2022,8.92
+DKI Jakarta,2023,10.42
+DKI Jakarta,2024,11.06
+Jawa Barat,2015,13.55
+Jawa Barat,2016,13.48
+Jawa Barat,2017,12.58
+Jawa Barat,2018,12.18
+Jawa Barat,2019,12.52
+Jawa Barat,2020,14.35
+Jawa Barat,2021,16.62
+Jawa Barat,2022,14.99
+Jawa Barat,2023,15.79
+Jawa Barat,2024,16.18
+Banten,2015,2.68
+Banten,2016,2.68
+Banten,2017,3.17
+Banten,2018,3.16
+Banten,2019,3.34
+Banten,2020,3.71
+Banten,2021,3.74
+Banten,2022,4.46
+Banten,2023,5.3
+Banten,2024,5.17
+Jawa Tengah,2015,5.21
+Jawa Tengah,2016,5.14
+Jawa Tengah,2017,4.68
+Jawa Tengah,2018,5.07
+Jawa Tengah,2019,5.32
+Jawa Tengah,2020,4.87
+Jawa Tengah,2021,4.79
+Jawa Tengah,2022,5.62
+Jawa Tengah,2023,5.46
+Jawa Tengah,2024,5.15
+DI Yogyakarta,2015,14.8
+DI Yogyakarta,2016,14.39
+DI Yogyakarta,2017,15.86
+DI Yogyakarta,2018,17.89
+DI Yogyakarta,2019,17.38
+DI Yogyakarta,2020,19.44
+DI Yogyakarta,2021,19.64
+DI Yogyakarta,2022,21.4
+DI Yogyakarta,2023,23.33
+DI Yogyakarta,2024,24.75
+Jawa Timur,2015,12.69
+Jawa Timur,2016,12.65
+Jawa Timur,2017,12.09
+Jawa Timur,2018,11.03
+Jawa Timur,2019,11.88
+Jawa Timur,2020,13.11
+Jawa Timur,2021,11.86
+Jawa Timur,2022,12.5
+Jawa Timur,2023,12.1
+Jawa Timur,2024,13.23
+Bali,2015,10.67
+Bali,2016,10.84
+Bali,2017,12.81
+Bali,2018,12.05
+Bali,2019,12.08
+Bali,2020,11.29
+Bali,2021,13.29
+Bali,2022,15.46
+Bali,2023,15.11
+Bali,2024,16.59
+Nusa Tenggara Barat,2015,8.77
+Nusa Tenggara Barat,2016,9.29
+Nusa Tenggara Barat,2017,9.03
+Nusa Tenggara Barat,2018,8.38
+Nusa Tenggara Barat,2019,9.8
+Nusa Tenggara Barat,2020,11.47
+Nusa Tenggara Barat,2021,12.5
+Nusa Tenggara Barat,2022,12.52
+Nusa Tenggara Barat,2023,12.58
+Nusa Tenggara Barat,2024,14.06
+Nusa Tenggara Timur,2015,13.42
+Nusa Tenggara Timur,2016,15.22
+Nusa Tenggara Timur,2017,16.63
+Nusa Tenggara Timur,2018,15.38
+Nusa Tenggara Timur,2019,14.59
+Nusa Tenggara Timur,2020,17.06
+Nusa Tenggara Timur,2021,18.46
+Nusa Tenggara Timur,2022,16.67
+Nusa Tenggara Timur,2023,15.51
+Nusa Tenggara Timur,2024,17.04
+Kalimantan Barat,2015,3.25
+Kalimantan Barat,2016,3.46
+Kalimantan Barat,2017,3.83
+Kalimantan Barat,2018,4.2
+Kalimantan Barat,2019,4.06
+Kalimantan Barat,2020,4.52
+Kalimantan Barat,2021,4.39
+Kalimantan Barat,2022,4.38
+Kalimantan Barat,2023,4.93
+Kalimantan Barat,2024,5.39
+Kalimantan Tengah,2015,10.21
+Kalimantan Tengah,2016,10.93
+Kalimantan Tengah,2017,10.14
+Kalimantan Tengah,2018,10.25
+Kalimantan Tengah,2019,10.04
+Kalimantan Tengah,2020,9.77
+Kalimantan Tengah,2021,11.64
+Kalimantan Tengah,2022,11.85
+Kalimantan Tengah,2023,13.84
+Kalimantan Tengah,2024,15.07
+Kalimantan Selatan,2015,8.04
+Kalimantan Selatan,2016,8.62
+Kalimantan Selatan,2017,9.04
+Kalimantan Selatan,2018,8.66
+Kalimantan Selatan,2019,9.67
+Kalimantan Selatan,2020,9.52
+Kalimantan Selatan,2021,8.64
+Kalimantan Selatan,2022,9.45
+Kalimantan Selatan,2023,9.0
+Kalimantan Selatan,2024,10.64
+Kalimantan Timur,2015,13.81
+Kalimantan Timur,2016,13.96
+Kalimantan Timur,2017,12.63
+Kalimantan Timur,2018,14.88
+Kalimantan Timur,2019,15.31
+Kalimantan Timur,2020,18.22
+Kalimantan Timur,2021,21.66
+Kalimantan Timur,2022,25.04
+Kalimantan Timur,2023,24.74
+Kalimantan Timur,2024,25.13
+Kalimantan Utara,2015,5.44
+Kalimantan Utara,2016,5.17
+Kalimantan Utara,2017,5.52
+Kalimantan Utara,2018,6.51
+Kalimantan Utara,2019,7.22
+Kalimantan Utara,2020,7.74
+Kalimantan Utara,2021,7.19
+Kalimantan Utara,2022,7.79
+Kalimantan Utara,2023,9.33
+Kalimantan Utara,2024,8.79
+Sulawesi Utara,2015,13.28
+Sulawesi Utara,2016,14.91
+Sulawesi Utara,2017,16.53
+Sulawesi Utara,2018,18.36
+Sulawesi Utara,2019,18.51
+Sulawesi Utara,2020,18.29
+Sulawesi Utara,2021,20.9
+Sulawesi Utara,2022,23.89
+Sulawesi Utara,2023,27.71
+Sulawesi Utara,2024,32.54
+Gorontalo,2015,8.02
+Gorontalo,2016,9.14
+Gorontalo,2017,10.01
+Gorontalo,2018,11.12
+Gorontalo,2019,12.66
+Gorontalo,2020,14.77
+Gorontalo,2021,14.79
+Gorontalo,2022,14.98
+Gorontalo,2023,13.9
+Gorontalo,2024,14.93
+Sulawesi Tengah,2015,7.52
+Sulawesi Tengah,2016,7.99
+Sulawesi Tengah,2017,7.88
+Sulawesi Tengah,2018,8.49
+Sulawesi Tengah,2019,7.72
+Sulawesi Tengah,2020,7.03
+Sulawesi Tengah,2021,8.06
+Sulawesi Tengah,2022,8.13
+Sulawesi Tengah,2023,7.62
+Sulawesi Tengah,2024,8.06
+Sulawesi Barat,2015,4.02
+Sulawesi Barat,2016,4.37
+Sulawesi Barat,2017,4.05
+Sulawesi Barat,2018,3.7
+Sulawesi Barat,2019,3.92
+Sulawesi Barat,2020,4.17
+Sulawesi Barat,2021,4.55
+Sulawesi Barat,2022,5.08
+Sulawesi Barat,2023,6.06
+Sulawesi Barat,2024,6.4
+Sulawesi Selatan,2015,12.13
+Sulawesi Selatan,2016,11.91
+Sulawesi Selatan,2017,12.28
+Sulawesi Selatan,2018,11.34
+Sulawesi Selatan,2019,10.3
+Sulawesi Selatan,2020,12.24
+Sulawesi Selatan,2021,14.08
+Sulawesi Selatan,2022,15.62
+Sulawesi Selatan,2023,15.97
+Sulawesi Selatan,2024,15.2
+Sulawesi Tenggara,2015,4.5
+Sulawesi Tenggara,2016,4.8
+Sulawesi Tenggara,2017,5.34
+Sulawesi Tenggara,2018,5.87
+Sulawesi Tenggara,2019,5.77
+Sulawesi Tenggara,2020,6.85
+Sulawesi Tenggara,2021,7.68
+Sulawesi Tenggara,2022,8.19
+Sulawesi Tenggara,2023,8.87
+Sulawesi Tenggara,2024,9.1
+Maluku,2015,5.98
+Maluku,2016,6.75
+Maluku,2017,6.1
+Maluku,2018,5.7
+Maluku,2019,5.21
+Maluku,2020,4.75
+Maluku,2021,5.5
+Maluku,2022,6.11
+Maluku,2023,6.37
+Maluku,2024,5.92
+Maluku Utara,2015,7.63
+Maluku Utara,2016,7.26
+Maluku Utara,2017,7.48
+Maluku Utara,2018,7.63
+Maluku Utara,2019,8.27
+Maluku Utara,2020,9.02
+Maluku Utara,2021,8.24
+Maluku Utara,2022,8.35
+Maluku Utara,2023,9.08
+Maluku Utara,2024,9.54
+Papua,2015,10.22
+Papua,2016,9.7
+Papua,2017,8.93
+Papua,2018,9.76
+Papua,2019,8.86
+Papua,2020,9.54
+Papua,2021,11.27
+Papua,2022,12.09
+Papua,2023,12.29
+Papua,2024,13.43
+Papua Barat,2015,8.64
+Papua Barat,2016,10.21
+Papua Barat,2017,10.38
+Papua Barat,2018,12.33
+Papua Barat,2019,14.45
+Papua Barat,2020,13.85
+Papua Barat,2021,12.75
+Papua Barat,2022,11.86
+Papua Barat,2023,10.74
+Papua Barat,2024,9.97
+Papua Pegunungan,2015,2.0
+Papua Pegunungan,2016,1.99
+Papua Pegunungan,2017,2.29
+Papua Pegunungan,2018,2.08
+Papua Pegunungan,2019,2.38
+Papua Pegunungan,2020,2.34
+Papua Pegunungan,2021,2.19
+Papua Pegunungan,2022,2.43
+Papua Pegunungan,2023,2.65
+Papua Pegunungan,2024,3.08
+Papua Tengah,2015,12.25
+Papua Tengah,2016,12.06
+Papua Tengah,2017,11.5
+Papua Tengah,2018,12.94
+Papua Tengah,2019,14.77
+Papua Tengah,2020,17.69
+Papua Tengah,2021,18.11
+Papua Tengah,2022,18.32
+Papua Tengah,2023,20.75
+Papua Tengah,2024,20.8
+Papua Selatan,2015,13.02
+Papua Selatan,2016,13.39
+Papua Selatan,2017,15.07
+Papua Selatan,2018,16.97
+Papua Selatan,2019,15.8
+Papua Selatan,2020,18.5
+Papua Selatan,2021,19.45
+Papua Selatan,2022,22.33
+Papua Selatan,2023,22.24
+Papua Selatan,2024,25.99
+Papua Barat Daya,2015,1.15
+Papua Barat Daya,2016,1.35
+Papua Barat Daya,2017,1.25
+Papua Barat Daya,2018,1.25
+Papua Barat Daya,2019,1.48
+Papua Barat Daya,2020,1.75
+Papua Barat Daya,2021,1.88
+Papua Barat Daya,2022,2.04
+Papua Barat Daya,2023,2.11
+Papua Barat Daya,2024,2.09
