@@ -1,0 +1,144 @@
+[
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "OpenRouterClient",
+        "importPath": "openrouter_client",
+        "description": "openrouter_client",
+        "isExtraImport": true,
+        "detail": "openrouter_client",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "pages.your_data",
+        "description": "pages.your_data",
+        "peekOfCode": "file_path = os.path.join(\"assets\", \"data_penduduk_indonesia.csv\")\n# Cek apakah file ada\nif os.path.exists(file_path):\n    df = pd.read_csv(file_path)\n    st.dataframe(df, use_container_width=True)\nelse:\n    st.error(f\"File '{file_path}' tidak ditemukan. Pastikan file tersedia.\")",
+        "detail": "pages.your_data",
+        "documentation": {}
+    },
+    {
+        "label": "model_options",
+        "kind": 5,
+        "importPath": "fp2-aja",
+        "description": "fp2-aja",
+        "peekOfCode": "model_options = {\n    \"DeepSeek Chat V3 (Free)\": \"deepseek/deepseek-chat-v3-0324\",\n    \"LLaMA 3.3 8B Instruct (Free)\": \"meta-llama/llama-3.3-8b-instruct\",\n    \"Qwen3 235B A22B (Free)\": \"qwen/qwen3-235b-a22b\"\n}\n# Load dataset\ndata_path = \"assets/data_penduduk_indonesia.csv\"\ndf = pd.read_csv(data_path) if os.path.exists(data_path) else None\n# Sidebar: pilih model\nst.sidebar.title(\"⚙️ Pengaturan\")",
+        "detail": "fp2-aja",
+        "documentation": {}
+    },
+    {
+        "label": "data_path",
+        "kind": 5,
+        "importPath": "fp2-aja",
+        "description": "fp2-aja",
+        "peekOfCode": "data_path = \"assets/data_penduduk_indonesia.csv\"\ndf = pd.read_csv(data_path) if os.path.exists(data_path) else None\n# Sidebar: pilih model\nst.sidebar.title(\"⚙️ Pengaturan\")\nselected_model_label = st.sidebar.selectbox(\"Pilih Model AI\", list(model_options.keys()))\nselected_model = model_options[selected_model_label]\n# Inisialisasi chatbot\nchatbot = OpenRouterClient(model=selected_model)\n# Judul dan subjudul\nst.title(\"🧠 AI Chatbot Bubble Style\")",
+        "detail": "fp2-aja",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "fp2-aja",
+        "description": "fp2-aja",
+        "peekOfCode": "df = pd.read_csv(data_path) if os.path.exists(data_path) else None\n# Sidebar: pilih model\nst.sidebar.title(\"⚙️ Pengaturan\")\nselected_model_label = st.sidebar.selectbox(\"Pilih Model AI\", list(model_options.keys()))\nselected_model = model_options[selected_model_label]\n# Inisialisasi chatbot\nchatbot = OpenRouterClient(model=selected_model)\n# Judul dan subjudul\nst.title(\"🧠 AI Chatbot Bubble Style\")\nst.markdown(f\"Powered by `{selected_model}` via OpenRouter 🤖\")",
+        "detail": "fp2-aja",
+        "documentation": {}
+    },
+    {
+        "label": "selected_model_label",
+        "kind": 5,
+        "importPath": "fp2-aja",
+        "description": "fp2-aja",
+        "peekOfCode": "selected_model_label = st.sidebar.selectbox(\"Pilih Model AI\", list(model_options.keys()))\nselected_model = model_options[selected_model_label]\n# Inisialisasi chatbot\nchatbot = OpenRouterClient(model=selected_model)\n# Judul dan subjudul\nst.title(\"🧠 AI Chatbot Bubble Style\")\nst.markdown(f\"Powered by `{selected_model}` via OpenRouter 🤖\")\n# Session state untuk riwayat chat\nif \"chat_history\" not in st.session_state:\n    st.session_state.chat_history = []",
+        "detail": "fp2-aja",
+        "documentation": {}
+    },
+    {
+        "label": "selected_model",
+        "kind": 5,
+        "importPath": "fp2-aja",
+        "description": "fp2-aja",
+        "peekOfCode": "selected_model = model_options[selected_model_label]\n# Inisialisasi chatbot\nchatbot = OpenRouterClient(model=selected_model)\n# Judul dan subjudul\nst.title(\"🧠 AI Chatbot Bubble Style\")\nst.markdown(f\"Powered by `{selected_model}` via OpenRouter 🤖\")\n# Session state untuk riwayat chat\nif \"chat_history\" not in st.session_state:\n    st.session_state.chat_history = []\n# Tampilkan riwayat",
+        "detail": "fp2-aja",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot",
+        "kind": 5,
+        "importPath": "fp2-aja",
+        "description": "fp2-aja",
+        "peekOfCode": "chatbot = OpenRouterClient(model=selected_model)\n# Judul dan subjudul\nst.title(\"🧠 AI Chatbot Bubble Style\")\nst.markdown(f\"Powered by `{selected_model}` via OpenRouter 🤖\")\n# Session state untuk riwayat chat\nif \"chat_history\" not in st.session_state:\n    st.session_state.chat_history = []\n# Tampilkan riwayat\nfor chat in st.session_state.chat_history:\n    with st.chat_message(chat[\"role\"]):",
+        "detail": "fp2-aja",
+        "documentation": {}
+    },
+    {
+        "label": "user_input",
+        "kind": 5,
+        "importPath": "fp2-aja",
+        "description": "fp2-aja",
+        "peekOfCode": "user_input = st.chat_input(\"Tulis pesan di sini...\")\nif user_input:\n    # Simpan dan tampilkan pesan pengguna\n    st.chat_message(\"user\").markdown(user_input)\n    st.session_state.chat_history.append({\"role\": \"user\", \"content\": user_input})\n    with st.spinner(\"Mengetik...\"):\n        # Contoh fungsi yang kamu panggil\n        maksud_user = chatbot.chat_with_context(user_input)\n        istrue = chatbot.chat_with_context_citcat(maksud_user)\n        # st.markdown(f\"**Klasifikasi Pertanyaan:** {istrue}\")",
+        "detail": "fp2-aja",
+        "documentation": {}
+    },
+    {
+        "label": "OpenRouterClient",
+        "kind": 6,
+        "importPath": "openrouter_client",
+        "description": "openrouter_client",
+        "peekOfCode": "class OpenRouterClient:\n    def __init__(self, model: str, referer: str = \"https://your-site.com\", title: str = \"Streamlit Chatbot\"):\n        load_dotenv()\n        self.api_key = os.getenv(\"OPENROUTER_API_KEY\")\n        self.model = model\n        self.headers = {\n            \"Authorization\": f\"Bearer {self.api_key}\",\n            \"HTTP-Referer\": referer,\n            \"X-Title\": title,\n            \"Content-Type\": \"application/json\"",
+        "detail": "openrouter_client",
+        "documentation": {}
+    }
+]
