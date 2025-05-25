@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 class OpenRouterClient:
-    def __init__(self, model: str, referer: str = "https://your-site.com", title: str = "Streamlit Chatbot"):
+    def __init__(self, model: str, referer: str = "https://fp2-ibukota.streamlit.app", title: str = "Streamlit Chatbot"):
         # load_dotenv()
         self.api_key = st.secrets["OPENROUTER_API_KEY"]
         self.model = model
