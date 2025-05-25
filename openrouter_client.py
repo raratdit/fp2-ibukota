@@ -2,12 +2,13 @@ import os
 import requests
 import json
 import pandas as pd
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
+import streamlit as st
 
 class OpenRouterClient:
     def __init__(self, model: str, referer: str = "https://your-site.com", title: str = "Streamlit Chatbot"):
-        load_dotenv()
-        self.api_key = os.getenv("OPENROUTER_API_KEY")
+        # load_dotenv()
+        self.api_key = st.secrets["OPENROUTER_API_KEY"]
         self.model = model
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",

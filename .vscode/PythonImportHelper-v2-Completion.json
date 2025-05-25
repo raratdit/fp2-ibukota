@@ -53,14 +53,6 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "file_path",
         "kind": 5,
         "importPath": "pages.your_data",
@@ -137,7 +129,7 @@
         "kind": 6,
         "importPath": "openrouter_client",
         "description": "openrouter_client",
-        "peekOfCode": "class OpenRouterClient:\n    def __init__(self, model: str, referer: str = \"https://your-site.com\", title: str = \"Streamlit Chatbot\"):\n        load_dotenv()\n        self.api_key = os.getenv(\"OPENROUTER_API_KEY\")\n        self.model = model\n        self.headers = {\n            \"Authorization\": f\"Bearer {self.api_key}\",\n            \"HTTP-Referer\": referer,\n            \"X-Title\": title,\n            \"Content-Type\": \"application/json\"",
+        "peekOfCode": "class OpenRouterClient:\n    def __init__(self, model: str, referer: str = \"https://your-site.com\", title: str = \"Streamlit Chatbot\"):\n        # load_dotenv()\n        self.api_key = st.secrets[\"OPENROUTER_API_KEY\"]\n        self.model = model\n        self.headers = {\n            \"Authorization\": f\"Bearer {self.api_key}\",\n            \"HTTP-Referer\": referer,\n            \"X-Title\": title,\n            \"Content-Type\": \"application/json\"",
         "detail": "openrouter_client",
         "documentation": {}
     }
